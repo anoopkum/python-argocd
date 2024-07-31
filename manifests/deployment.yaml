@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: python:3.9.9-slim-buster
+        image: nginx
         ports:
         - containerPort: 8000
         resources:
